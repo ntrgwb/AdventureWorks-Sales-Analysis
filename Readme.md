@@ -291,7 +291,7 @@ Trang tổng quan giúp theo dõi nhanh:
 - Revenue Contribution by Category
 - Top 5 Most Profitable Products
 
-![Data Model](Images/Executive Overview.png)
+![Data Model](Images/Executive_Overview.png)
 
 ---
 
@@ -305,7 +305,7 @@ Trang này tập trung phân tích hiệu quả sản phẩm thông qua:
 - Top 10 Products by Revenue
 - Product Performance: Revenue vs Profit Margin
 
-![Product & Category Analysis](Images/Product & Category.png)
+![Product & Category Analysis](Images/Product_Category.png)
 
 ---
 
@@ -320,7 +320,7 @@ Trang Regional Sales phân tích hiệu quả kinh doanh theo địa lý:
 - Revenue Trend by Territory Group
 - Regional Performance Detail
 
-![Regional Sales Analysis](Images/regional_sales.png)
+![Regional Sales Analysis](Images/Regional_Sales.png)
 
 ---
 
@@ -334,7 +334,7 @@ Trang Customer Segmentation tập trung vào hành vi và giá trị của các 
 - Revenue by Age Group & Income Tier
 - Top 10 Customers by Revenue
 
-![Customer Segmentation](Images/customer_segmentation.png)
+![Customer Segmentation](Images/Customer_Segmentation.png)
 
 ---
 
@@ -366,7 +366,7 @@ nhưng nhóm này đạt:
 
 cao hơn đáng kể so với Bikes (~40.63%).
 
-Điều này cho thấy Accessories có giá trị đáng chú ý về mặt profitability dù doanh thu tuyệt đối thấp.
+Điều này cho thấy Accessories có giá trị về mặt profit dù doanh thu thấp.
 
 ---
 
@@ -440,11 +440,11 @@ tạo ra khoảng:
 
 Bikes tạo ra phần lớn Revenue trong khi Accessories có Profit Margin cao.
 
-Do đó doanh nghiệp có thể tăng lợi nhuận trên mỗi giao dịch bằng cách cross-sell các sản phẩm Accessories khi khách hàng mua Bikes.
+Do đó doanh nghiệp có thể tăng lợi nhuận trên mỗi giao dịch bằng cách bán kèm các sản phẩm Accessories khi khách hàng mua Bikes.
 
 Ví dụ:
 
-**Bike + Helmet + Bottle + Bottle Cage**
+**Bike + Bottles and Cages**
 
 ---
 
@@ -452,13 +452,11 @@ Ví dụ:
 
 Có thể thử nghiệm các bundle như:
 
-- Bike + Helmet
 - Bike + Hydration Pack
-- Bike + Bottle & Bottle Cage
-
+- Bike + Bottle and Cages
+  
 Mục tiêu là tăng:
 
-- Average Order Value
 - Revenue per Customer
 - Profit per Order
 
@@ -472,7 +470,6 @@ Doanh nghiệp có thể ưu tiên:
 
 - Personalized offers
 - Product recommendations
-- Cross-selling campaigns
 - Customer retention campaigns
 
 cho nhóm khách hàng này.
@@ -485,31 +482,9 @@ North America đang dẫn đầu về Revenue.
 
 Tuy nhiên doanh nghiệp không nên chỉ đánh giá thị trường dựa trên Revenue mà cần kết hợp:
 
-**Revenue + Profit + Profit Margin + Customer Volume**
+**Revenue + Profit + Customer Volume**
 
 để xác định khu vực thực sự mang lại hiệu quả kinh doanh tốt nhất.
-
----
-
-## 11. Cấu trúc Repository
-
-```text
-AdventureWorks-Sales-Analysis/
-│
-├── Dashboard/
-│   └── AdventureWorks_Sales_Dashboard.pbix
-│
-├── Images/
-│   ├── executive_overview.png
-│   ├── product_category.png
-│   ├── regional_sales.png
-│   └── customer_segmentation.png
-│
-├── Sql/
-│   └── data_preparation.sql
-│
-└── README.md
-```
 
 ---
 
