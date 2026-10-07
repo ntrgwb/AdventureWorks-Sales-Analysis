@@ -12,7 +12,6 @@
 8. [Dashboard](#8-dashboard)
 9. [Insight chính](#9-insight-chính)
 10. [Đề xuất kinh doanh](#10-đề-xuất-kinh-doanh)
-11. [Cấu trúc Repository](#11-cấu-trúc-repository)
 
 ---
 
