@@ -39,7 +39,7 @@ Dự án tập trung trả lời 4 nhóm câu hỏi kinh doanh chính.
 ### 2.1. Tổng quan hoạt động kinh doanh
 
 - Tổng doanh thu và lợi nhuận của doanh nghiệp là bao nhiêu?
-- Biên lợi nhuận (Profit Margin) hiện tại như thế nào?
+- Biên lợi nhuận hiện tại như thế nào?
 - Doanh thu thay đổi như thế nào theo thời gian?
 - Những sản phẩm nào đóng góp nhiều lợi nhuận nhất?
 
@@ -167,8 +167,6 @@ Income Tier được chia thành:
 - Middle Income
 - High Income
 
-Tuổi của khách hàng được tính tại thời điểm **28/01/2014**, tương ứng với ngày cuối cùng xuất hiện trong dữ liệu bán hàng, thay vì sử dụng ngày hiện tại.
-
 ---
 
 ### 5.3. Product Dimension
@@ -185,7 +183,7 @@ Qua đó mỗi sản phẩm có thể được phân tích theo:
 
 **Product → Subcategory → Category**
 
-Các giá trị NULL ở một số thuộc tính phân loại được thay bằng `Unknown` hoặc `Other`.
+Các giá trị NULL ở một số thuộc tính phân loại được thay bằng `Unknown` và `Other`.
 
 ---
 
