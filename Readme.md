@@ -337,151 +337,83 @@ Trang Customer Segmentation tập trung vào hành vi và giá trị của các 
 
 ## 9. Insight chính
 
-### 9.1. Bikes là nguồn doanh thu chính
+### 9.1. Doanh thu và lợi nhuận phụ thuộc gần như hoàn toàn vào Bikes
 
-Bikes tạo ra khoảng:
+Bikes tạo ra khoảng **$28.32M Revenue**, tương đương **96.46% tổng Revenue**, và khoảng **$11.5M Profit**, tương đương gần 95% tổng Profit ($12.08M). Sự phụ thuộc này còn tập trung hơn ở cấp sản phẩm: cả 5 sản phẩm có lợi nhuận cao nhất đều là các biến thể của Mountain-200 (Black và Silver, các size 38 đến 46), và cộng lại tạo ra khoảng $3.04M, tức khoảng 26,43% tổng Profit của doanh nghiệp.
 
-**$28.32M Revenue**
-
-tương đương khoảng:
-
-**96.46% tổng Revenue**
-
-Điều này cho thấy doanh thu của AdventureWorks phụ thuộc rất lớn vào nhóm Bikes.
+Ngược lại, doanh thu lại rất phân tán ở cấp khách hàng. Top 10 khách hàng lớn nhất chỉ đóng góp khoảng $132K, chưa tới 0.5% tổng Revenue nên tổng doanh thu không phụ thuộc hoàn toàn vào 10 khách này nên rủi ro về khách hàng thấp. Điều này cho thấy rủi ro của AdventureWorks nằm ở sản phẩm: ví nếu dòng Mountain-200 gặp sự cố về nguồn cung, lợi nhuận toàn công ty sẽ bị ảnh hưởng trực tiếp.
 
 ---
 
-### 9.2. Accessories có Profit Margin cao
+### 9.2. Accessories có biên lợi nhuận cao nhưng quy mô còn quá nhỏ
 
-Mặc dù Accessories chỉ đóng góp khoảng:
+Accessories chỉ chiếm khoảng **2.39% tổng Revenue**, nhưng đạt **Profit Margin khoảng 62.60%**, cao hơn nhiều so với Bikes (khoảng 40.63%). Nói cách khác, mỗi $1 doanh thu từ Accessories giữ lại được khoảng $0.63 lợi nhuận, trong khi con số này ở Bikes chỉ là khoảng $0.41.
 
-**2.39% tổng Revenue**
-
-nhưng nhóm này đạt:
-
-**~62.60% Profit Margin**
-
-cao hơn đáng kể so với Bikes (~40.63%).
-
-Điều này cho thấy Accessories có giá trị về mặt profit dù doanh thu thấp.
+Tuy vậy, vì quy mô quá nhỏ (khoảng $0.70M Revenue), Accessories mới đóng góp khoảng $0.44M Profit, tức chưa tới 4% trên tổng $12,08M Profit. Biên lợi nhuận cao chưa đồng nghĩa với đóng góp lợi nhuận lớn. Accessories có biên lợi nhuận cao (62.60%) nhưng giá trị mỗi đơn hàng có Accessories chỉ khoảng $38.49, thấp hơn rất nhiều so với giá trị đơn hàng trung bình của toàn công ty ($1.06K). Vì vậy giá trị của nhóm này nằm ở dư địa tăng trưởng: bán kèm Accessories cho khách hàng đang mua xe là cơ hội tự nhiên để tăng lợi nhuận trên mỗi đơn hàng. Nếu giá trị mỗi đơn có Accessories tăng thêm $10, nhân cho 18,206 đơn hàng thì revenue tăng thêm $182,060, lợi nhuận tăng khoảng $113,970, Profit toàn công ty có thể tăng khoảng 0.9%.
 
 ---
 
-### 9.3. Road Bikes là Subcategory tạo Revenue lớn nhất
+### 9.3. Road Bikes dẫn đầu về Revenue, nhưng Mountain Bikes hiệu quả hơn về lợi nhuận
 
-Trong các Subcategory:
+Trong nhóm Bikes, Road Bikes tạo ra nhiều doanh thu nhất với khoảng **$14.5M**, chiếm gần một nửa tổng Revenue. Mountain Bikes đứng thứ hai với khoảng $10.0M, và Touring Bikes khoảng $3.8M.
 
-- Road Bikes: ~$14.5M Revenue
-- Mountain Bikes: ~$10.0M Revenue
-- Touring Bikes: ~$3.8M Revenue
-
-Road Bikes là nhóm sản phẩm đóng góp doanh thu lớn nhất.
+Tuy nhiên, thứ hạng theo Revenue không giống thứ hạng theo Profit. Road Bikes tạo ra khoảng $5.5M Profit, tương đương Profit Margin khoảng 38%, trong khi Mountain Bikes tạo ra khoảng $4.5M Profit trên doanh thu thấp hơn, tương đương Profit Margin khoảng 45%. Chênh lệch khoảng 7 điểm phần trăm này có nghĩa là mỗi $1M doanh thu chuyển từ Road Bikes sang Mountain Bikes sẽ mang thêm khoảng $70K lợi nhuận. Điều này cũng khớp với việc Top 5 sản phẩm lợi nhuận cao nhất đều thuộc Mountain-200, trong khi Road-150 xuất hiện bốn lần trong Top 10 Revenue nhưng không có mặt trong Top 5 Profit.
 
 ---
 
-### 9.4. North America dẫn đầu về Revenue
+### 9.4. North America dẫn đầu về Revenue, nhưng khác biệt thực sự giữa các khu vực nằm ở giá trị đơn hàng
 
-Theo Territory Group:
+Theo Territory Group, North America tạo ra khoảng **$11.37M** (38.72%), Pacific khoảng **$9.06M** (30.86%) và Europe khoảng **$8.93M** (30.42%). Tuy nhiên, vị trí dẫn đầu của North America chủ yếu đến từ việc gộp hai quốc gia là United States (khoảng $9.4M) và Canada (khoảng $2.0M). Nếu so theo từng quốc gia, United States chỉ nhỉnh hơn Australia (khoảng $9.1M, gần như toàn bộ khu vực Pacific) khoảng 3%.
 
-- North America: ~$11.37M
-- Pacific: ~$9.06M
-- Europe: ~$8.93M
+Điều đáng chú ý hơn là Profit Margin giữa các quốc gia gần như không khác nhau, dao động trong khoảng hẹp từ 40.68% (Australia) đến 41.96% (Canada). Sự khác biệt thực sự nằm ở giá trị đơn hàng. North America có nhiều đơn hàng nhất (12,942 đơn) nhưng giá trị trung bình mỗi đơn chỉ khoảng $878. Pacific chỉ có 6,718 đơn, nhưng AOV lên tới khoảng $1,349, cao hơn North America khoảng 54%. Europe nằm ở giữa với 7,999 đơn và AOV khoảng $1,116.
 
-North America là thị trường đóng góp Revenue lớn nhất.
+Về xu hướng theo thời gian, Europe là khu vực tăng nhanh nhất giai đoạn 2011 đến 2013, với Revenue tăng khoảng 3.6 lần và tỷ trọng trong tổng Revenue tăng từ khoảng 21% lên khoảng 33%, trong khi North America tăng khoảng 2.2 lần và Pacific khoảng 1.7 lần. Vì biên lợi nhuận gần như bằng nhau, việc tăng lợi nhuận theo khu vực phụ thuộc chủ yếu vào việc tăng số lượng đơn hàng và giá trị mỗi đơn, chứ không phải tối ưu margin.
 
 ---
 
-### 9.5. Nhóm khách hàng 30-39 tuổi đóng góp Revenue lớn nhất
+### 9.5. Nhóm 30-39 đông nhất, nhưng nhóm 40-49 có giá trị cao hơn trên mỗi khách hàng
 
-Nhóm tuổi **30-39** tạo ra khoảng:
+Nhóm tuổi **30-39** tạo ra khoảng **$10.4M Revenue** và có số lượng khách hàng lớn nhất, khoảng **6.4K**. Nhóm 40-49 đứng thứ hai với khoảng $9.4M Revenue và 5.5K khách hàng. Hai nhóm này cộng lại tạo ra khoảng 68% tổng Revenue, cho thấy tệp khách hàng cốt lõi của AdventureWorks nằm trong độ tuổi từ 30 đến 49.
 
-**$10.4M Revenue**
-
-và cũng là nhóm có số lượng khách hàng lớn nhất, khoảng:
-
-**6.4K customers**
-
-Điều này cho thấy nhóm 30-39 là một phân khúc khách hàng quan trọng đối với AdventureWorks.
+Tuy nhiên, khi chia Revenue cho số khách hàng, nhóm 40-49 chi tiêu trung bình khoảng $1.72K mỗi người, cao hơn nhóm 30-39 (khoảng $1.63K). Như vậy 30-39 dẫn đầu nhờ số lượng, còn 40-49 có giá trị cao hơn trên mỗi khách hàng. Ở hai đầu còn lại, nhóm Under 30 chỉ đóng góp khoảng 2.8% Revenue, còn nhóm 60+ có mức chi tiêu thấp nhất, khoảng $1.15K mỗi khách hàng.
 
 ---
 
-### 9.6. Middle Income là nhóm thu nhập đóng góp Revenue lớn nhất
+### 9.6. Middle Income đóng góp nhiều nhất, nhưng cơ cấu thu nhập khác nhau giữa các độ tuổi
 
-Revenue theo Income Tier:
+Theo Income Tier, Middle Income tạo ra khoảng **$13.7M** (khoảng 47% tổng Revenue), High Income khoảng **$9.3M** (khoảng 32%) và Low Income khoảng **$6.3M** (khoảng 22%).
 
-- Middle Income: ~$13.7M
-- High Income: ~$9.3M
-- Low Income: ~$6.3M
-
-Middle Income hiện là nhóm đóng góp Revenue lớn nhất.
+Cơ cấu thu nhập cũng khác nhau rõ rệt giữa các độ tuổi. Nhóm 30-39 đóng góp khoảng 40% toàn bộ Revenue của nhóm Low Income ($2.56M trên $6.33M), cho thấy đây là nhóm khách hàng đông nhưng không đồng đều về khả năng chi tiêu. Nhóm Under 30 có khoảng 58% Revenue đến từ Low Income, và quy mô tổng thể còn rất nhỏ.
 
 ---
 
-### 9.7. 30-39 + Middle Income là một phân khúc nổi bật
+### 9.7. Phân khúc cốt lõi là nhóm 30-49 tuổi có thu nhập trung bình
 
-Khi kết hợp Age Group và Income Tier, nhóm:
-
-**30-39 + Middle Income**
-
-tạo ra khoảng:
-
-**$4.79M Revenue**
-
-Đây là một trong những customer segment nổi bật nhất trong dữ liệu.
+Khi kết hợp Age Group và Income Tier, hai phân khúc lớn nhất gần như ngang nhau: **40-49 + Middle Income** tạo ra khoảng **$4.87M Revenue** và **30-39 + Middle Income** tạo ra khoảng **$4.79M Revenue**, mỗi nhóm chiếm khoảng 16% tổng Revenue. Với nhóm High Income, phân khúc lớn nhất là **30-39 + High Income** với khoảng $3.09M, cho thấy đây là tệp khách hàng phù hợp để giới thiệu các sản phẩm cao cấp.
 
 ---
 
 ## 10. Đề xuất kinh doanh
 
-### Cross-selling Accessories với Bikes
+### Bán kèm Accessories với Bikes
 
-Bikes tạo ra phần lớn Revenue trong khi Accessories có Profit Margin cao.
+Bikes tạo ra phần lớn Revenue trong khi Accessories có Profit Margin cao nhưng mới chiếm tỷ trọng rất nhỏ. Doanh nghiệp có thể tăng lợi nhuận trên mỗi đơn hàng bằng cách bán kèm Accessories ngay tại thời điểm khách hàng mua xe, ví dụ Bike kèm Bottles and Cages hoặc Bike kèm Hydration Pack. Các chỉ số nên theo dõi là tỷ lệ đơn hàng Bikes có kèm Accessories (Attach Rate), doanh thu Accessories trên mỗi đơn và Profit per Order.
 
-Do đó doanh nghiệp có thể tăng lợi nhuận trên mỗi giao dịch bằng cách bán kèm các sản phẩm Accessories khi khách hàng mua Bikes.
+### Thử nghiệm Bundle sản phẩm
 
-Ví dụ:
+Thay vì áp dụng ngay trên toàn thị trường, nên thử nghiệm các gói bundle ở một khu vực trước, ví dụ United States, rồi so sánh AOV và Profit per Order giữa nhóm có bundle và nhóm không có. Cách làm này vừa kiểm chứng được hiệu quả, vừa giải quyết vấn đề AOV của North America đang thấp hơn đáng kể so với Pacific và Europe.
 
-**Bike + Bottles and Cages**
+### Quản trị rủi ro phụ thuộc vào Mountain-200 và rà soát Road-150
 
----
+Vì 5 biến thể Mountain-200 tạo ra khoảng 25% tổng Profit, doanh nghiệp nên theo dõi riêng nhóm này về tồn kho, giá bán và biên lợi nhuận theo tháng. 
 
-### Xây dựng Bundle sản phẩm
+### Tập trung vào nhóm khách hàng 30-49 tuổi
 
-Có thể thử nghiệm các bundle như:
-
-- Bike + Hydration Pack
-- Bike + Bottle and Cages
-  
-Mục tiêu là tăng:
-
-- Revenue per Customer
-- Profit per Order
-
----
-
-### Tập trung vào nhóm khách hàng 30-39
-
-Nhóm 30-39 vừa có lượng khách hàng lớn vừa tạo ra Revenue cao.
-
-Doanh nghiệp có thể ưu tiên:
-
-- Personalized offers
-- Product recommendations
-- Customer retention campaigns
-
-cho nhóm khách hàng này.
-
----
+Hai nhóm 30-39 và 40-49 tạo ra khoảng 68% Revenue. Doanh nghiệp nên ưu tiên các chương trình giữ chân khách hàng và ưu đãi cá nhân hóa cho nhóm này, đặc biệt là phân khúc Middle Income. Với nhóm 30-39 có thu nhập cao, có thể giới thiệu các dòng sản phẩm cao cấp và phụ kiện. Nhóm Under 30 hiện đóng góp nhỏ và thiên về thu nhập thấp, nên chưa cần dồn nhiều ngân sách cho đến khi có thêm bằng chứng về giá trị lâu dài của nhóm này. Các chỉ số nên theo dõi là Revenue per Customer, số đơn hàng trên mỗi khách hàng và tỷ lệ khách hàng quay lại mua.
 
 ### Tối ưu chiến lược theo khu vực
 
-North America đang dẫn đầu về Revenue.
-
-Tuy nhiên doanh nghiệp không nên chỉ đánh giá thị trường dựa trên Revenue mà cần kết hợp:
-
-**Revenue + Profit + Customer Volume**
-
-để xác định khu vực thực sự mang lại hiệu quả kinh doanh tốt nhất.
+Không nên đánh giá thị trường chỉ dựa trên Revenue. Vì Profit Margin giữa các quốc gia gần như bằng nhau, cần kết hợp Revenue, số lượng đơn hàng và AOV để xác định ưu tiên: tăng giá trị mỗi đơn tại United States, giữ chân nhóm khách có giá trị đơn cao tại Australia và đầu tư tăng trưởng tại Europe, nơi có tốc độ tăng nhanh nhất.
 
 ---
 
